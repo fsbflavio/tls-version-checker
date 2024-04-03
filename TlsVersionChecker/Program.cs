@@ -77,7 +77,7 @@ class Program
         }
         catch (AuthenticationException ex)
         {
-            Console.WriteLine($"Error establishing SSL/TLS connection: {ex.Message}");
+            Console.WriteLine($"Error establishing SSL/TLS connection: {ex}");
         }
     }
 
