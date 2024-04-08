@@ -8,7 +8,7 @@ TlsVersionChecker.exe <target_host> [--use tls13|tls12|tls11|tls]
 ### Options
 
 - `--help`: Show help message
-- `--use VERSION`: Force the use of a specific TLS version (e.g., tls13, tls12, tls11, tls)
+- `--use-tls-Version VERSION`: Force the use of a specific TLS version (e.g., tls13, tls12, tls11, tls, system)
 
 ## Requirements
 
